@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form>
+        <label for="nombre">Nombres:</label><br>
+        <input type="text" name="nombre" placeholder="ingrese sus Nombres">
+        <br>
+        <label for="nombre">apellidos:</label><br>
+        <input type="text" name="nombre" placeholder="ingrese sus apellidos">
+        <br>
+        <label for="nombre">direccion de correo</label><br>
+        <input type="text" name="nombre" placeholder="ingrese su email">
+        <br>
+        <div class="from-check">
+        <input class="from-check-input" type="checkbox" name="" id="check1"><label class="from-check-label" for="check1">Rut</label>
+        <input class="from-check-input" type="checkbox" name="" id="check2"><label class="from-check-label" for="check2">Pasaporte</label>
+        </div>
+        
+
+
+
+
+
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Comentario</label><br>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        <br><br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="limpiar">
+
+    </form>  
+    
+</body>
+</html>
